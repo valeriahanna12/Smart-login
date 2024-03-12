@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>signup page</title>
+  
+</head>
+<body>
+  <div class="box m-auto text-center p-5 mt-5 text-white" >
+    <h1>Smart Login System</h1>
+    <input id="nameInput" type="text" class="form-control" placeholder="Enter Your Name">
+    <div><p id="inputAlert1" class="hent pt-0 text-danger d-none">include at least 3 letters starting with capital, second name is optional</p></div>
+
+    <input id="mailInput" type="text" class="form-control" placeholder="Enter Your email">
+    <div><p id="inputAlert2" class="hent pt-0 text-danger d-none">name@example.com</p></div>
+
+    <input id="passInput" type="password" class=" form-control" placeholder="Enter Password">
+    <div><p id="inputAlert3" class="hent pt-0 text-danger d-none">you must strenth your password, from 5 to 15 characters</p></div>
+
+    <div><p id="inputsAlert" class=" text-danger d-none">signUp failed ! Try again</p></div>
+    <div><p id="inputAlertSuccess" class=" text-success d-none">Success</p></div>
+    <div><p id="inputAlertFailed" class=" text-danger d-none">this account is exist ! Try another one.</p></div>
+
+    <button id="signUpBtn" class="btn1 btn form-control mt-3 mb-3">Sign Up</button>
+    <p>You have an account? <a class="signupin" href="index.html">Sign In</a></p>
+    <a id="successBtn" href="index.html" class="btn m-3 btn2 d-none">Sign In</a>
+  </div>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/signup.js"></script>
+</body>
+
+</html>
